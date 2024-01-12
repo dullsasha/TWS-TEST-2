@@ -1,0 +1,74 @@
+body{
+    background-color: grey;
+    margin: 0px;
+    color:white
+}
+
+main{
+    height: 900px;
+}
+
+footer{
+    background-color:rgb(42, 37, 107);
+    padding: 20px;
+}
+
+.ikonky{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    fill: azure;
+    gap: 75px;
+
+}
+
+.ikonky1:hover{
+    fill:red
+}
+
+.kontakty{
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    justify-content: center;
+    font-size: large;
+    align-items: center;
+}
+
+h2{
+    text-decoration:underline;
+    text-underline-offset: 10px;
+}
+
+.telefonAtd{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    flex-direction: column;
+}
+
+.oteviracidobaNadpis{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    font-size: large;
+}
+
+p{
+    margin: 5px;
+}
+
+.oteviraciDoba{
+    margin: 1px;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
